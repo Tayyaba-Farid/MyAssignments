@@ -1,6 +1,4 @@
-// Assignment 2
-let myName = "Tayyaba"
-console.log(myName.toLowerCase())
-console.log(myName.toUpperCase())
-let titlecaseName = myName.replace(/\b\w/g, c => c.toUpperCase());
-console.log(titlecaseName)
+// Assignment 1
+
+let fullname = "Eric";
+console.log("Hello Eric, would you like to learn some Python today?")
