@@ -1,1 +1,6 @@
-console.log("Nelson Mandela once said, " + "\"The greatest glory in living is not in falling, but in rising everytime we fall.\"");
+// Assignment 2
+var myName = "Tayyaba";
+console.log(myName.toLowerCase());
+console.log(myName.toUpperCase());
+var titlecaseName = myName.replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+console.log(titlecaseName);
