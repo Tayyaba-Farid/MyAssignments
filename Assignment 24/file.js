@@ -54,6 +54,7 @@ console.log(f2 > f1 || f4 < f3);
 var arr1 = ['apple', 'banana', 'grapes', 'mango'];
 console.log("is banana is in arr1? I predict true.");
 console.log(arr1.indexOf('banana') == 1);
+//Test whether an item is not in a array
 var arr2 = ["tayyaba", "hania", "iqra", "aqsa"];
 console.log("is umaima is in arr2? I predict true");
 console.log(arr2.indexOf("Umaima") !== -1);
