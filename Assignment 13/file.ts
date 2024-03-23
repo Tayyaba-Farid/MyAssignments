@@ -6,6 +6,6 @@ let modelNames = {
     Aeroplane: "Airbus A330"
 }
 
-transportationModes.forEach(mytransport =>  {
-    console.log("I would like to own " + modelNames[mytransport] + " " + mytransport)
+transportationModes.forEach((mode: string) => {
+    console.log(`I would like to own ${modelNames[mode]} ${mode}`)
 })

@@ -1,2 +1,10 @@
-var modes = ["BMC Bicycle", "Moto Guzzi Motorbike", "Ford Mustang Car", "Airbus A330 Aeroplane"];
-modes.map(function (Mytransports) { return console.log("I want to own a ".concat(Mytransports)); });
+var transportationModes = ["Bicycle", "Motorbike", "Car", "Aeroplane"];
+var modelNames = {
+    Bicycle: "BMC",
+    Motorbike: "Moto Guzzi",
+    Car: "Ford Mustang",
+    Aeroplane: "Airbus A330"
+};
+transportationModes.forEach(function (mode) {
+    console.log("I would like to own ".concat(modelNames[mode], " ").concat(mode));
+});
